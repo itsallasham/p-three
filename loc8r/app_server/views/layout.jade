@@ -1,0 +1,102 @@
+doctype html
+html
+	head
+		meta(name='viewport', content='width=device-width, initial-scale=1.0')
+		title= title
+		link(rel='stylesheet', href='/bootstrap/css/bootstrap.min.css')
+		link(rel='stylesheet', href='/bootstrap/css/main.css')
+		link(rel='stylesheet', href='/bootstrap/css/font-awesome.css')
+		link(rel='stylesheet', href='/bootstrap/css/animate.min.css')
+		link(rel='stylesheet', href='/bootstrap/css/prettyPhoto.css')
+		link(rel='stylesheet', href='/bootstrap/css/responsive.css')
+
+	body
+		header#header
+			.top-bar
+				.container
+					.row
+						.col-xs-12
+							.social
+								ul.social-share
+									li
+										a(href='/#/')
+											i.fa.fa-facebook
+									li
+										a(href='/#/')
+											i.fa.fa-twitter
+									li
+										a(href='/#/')
+											i.fa.fa-linkedin
+									li
+										a(href='/#/')
+											i.fa.fa-pinterest
+								.search
+										form(role='form')
+											input.search-form(type='text', autocomplete='off',placeholder='Search')                         
+											i.fa.fa-search
+				// /.container
+			// /.top-bar			
+										
+			nav.navbar.navbar-inverse(roll='banner')
+				.container
+					.navbar-header
+						button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+							span.sr-only Toggle navigation
+							span.icon-bar
+							span.icon-bar
+							span.icon-bar
+						a.navbar-inverse.navbar-brand.arch(href='/') Piece-IIV
+							
+					.collapse.navbar-collapse.navbar-right
+						ul.nav.navbar-nav
+							li.dropdown
+								a.dropdown-toggle(href='/catalog/', data-toggle='dropdown')
+									|	Favorites 
+									i.fa.fa-plus-square
+								ul.dropdown-menu
+									li
+										a(href='#') Sushi/Hibachi
+									li
+										a(href='#') Mexican
+									li
+										a(href='#') Italian
+									li
+										a(href='#') Other
+						
+							li
+								a(href='/sponsorships/') Sponsorships
+
+							li
+								a(href='/#/') Sign In
+				// /.container
+			// /nav
+		
+			
+
+	block content
+
+	#footer.footer
+		.container
+			.row
+				.col-sm-6
+					small &copy; Raymond L. Whatley IIV 2015
+				.col-sm-6
+					ul.pull-right
+						li
+							a(href='#') Home
+						li
+							a(href='#') About
+						li
+							a(href='#') Contact Us
+
+		// /.container
+			
+
+	script(src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js')
+	script(src='/bootstrap/js/bootstrap.min.js')
+	script(src='/bootstrap/js/jquery.prettyPhoto.js')
+	script(src='/bootstrap/js/jquery.isotope.min.js')
+	script(src='/bootstrap/js/main.js')
+	script(src='/bootstrap/js/jquery.js')
+	script(src='/bootstrap/js/wow.min.js')
+	

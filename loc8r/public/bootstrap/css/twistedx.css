@@ -1,0 +1,611 @@
+body{
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	margin:0px 0px 0px 0px;
+	font-weight: normal;
+	background-image: url(Images/bei%20jing2.jpg);
+	background-color: #90353B;
+	background-position: center center;
+}
+
+h1{
+	font-family:Arial, sans-serif;
+	color: #CC0000;
+}
+
+h2{font-family:Arial, sans-serif;
+color:#CC0000;
+}
+
+h3{font-family:Arial, sans-serif;
+color:#fff;
+}
+
+.style1{
+	font-family:Arial;
+	font-size:12px;
+	color:#000;
+	font-weight: normal;
+	padding:0px 0px 0px 5px;
+}
+
+.style2{
+	font-family:Arial;
+	font-size:12px;
+	color:#CC3300;
+	font-weight: bold;
+}
+
+.style3{
+	font-family:Tahoma;
+	font-size:11px;
+	color:#90353b;
+	font-weight: normal;
+	padding:0px 0px 0px 0px;
+}
+
+.style4{
+	font-family:Arial, sans-serif;
+	font-size:11px;
+	color:#90353B;
+	padding:0px 13px 0px 0px;
+}
+
+.p {line-height:150%;
+    font:Arial;
+    font-size:12px;
+    font-weight:normal;
+	color: #90353b;
+}
+.p2 {line-height:120%;
+    font:Arial;
+    font-size:12px;
+    font-weight:normal;
+	color: #90353b;
+	padding:0px 0px 0px 0px;
+}
+
+a{ color: #90353b;
+	text-decoration:none;
+}
+
+
+a:visited{
+	color: #90353b;
+	text-decoration: none;
+}
+
+a:hover{
+ color:#CC3300;
+	text-decoration: underline;
+}
+
+.class {
+    padding:20px 0px 0px 20px;
+	float:left;
+}
+
+.class2 {
+    padding:30px 0px 0px 0px;
+	font:Arial,sans-serif; 
+	font-size:12px; 
+	font-weight:bold;
+}
+  
+/* ID */
+#masthead{
+    padding: 30px 0px 0px 0px;
+}
+
+#headlines{
+  float:left;
+	width: 199px;
+}
+
+#img{
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: left center;
+	height:42px;
+	width:564px;
+	background-image: url(Images/tiao.jpg);
+	clear: right;
+}
+
+#copy { 
+    font-family:Arial, sans-serif;
+    font-size:9px;
+    color:#90353B;
+}
+
+#sp{
+    background-color:#F2E9D8;
+    width:580px;
+    height:33px;
+}
+
+#more {
+    padding:0px 10px 0px 0px;
+}
+
+#img2{
+	background-attachment: scroll;
+	background-image: url(Images/wire.gif);
+	background-repeat: repeat-x;
+	background-position: left;
+	padding-top: 34px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#bgimg {background-color:#F2E9D8;
+background-image:url(Images/Bob_images01.gif);
+background-repeat:no-repeat;
+background-position:100% 100%;
+     height:456px;
+	 width:580px;
+}
+
+#bgimg9 {
+	background-image:url(Images/X3-3.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	height:100%;
+	width:100%;
+}
+
+#bgimg2 {background-color:#F2E9D8;
+background-image:url(Images/Bob_images02.gif);
+background-repeat:no-repeat;
+background-position:100% 100%;
+     height:456px;
+	 width:580px;
+}
+
+#bgimg3 {background-color:#F2E9D8;
+background-image:url(Images/Bgimages02.gif);
+background-repeat:no-repeat;
+background-position:100% 100%;
+     height:456px;
+	 width:580px;
+}
+
+#bgimg4 {background-color:#F2E9D8;
+background-image:url(Images/Bob_images03.gif);
+background-repeat:no-repeat;
+background-position:100% 100%;
+     height:456px;
+	 width:580px;
+}
+#bgimg5 {background-color:#F2E9D8;
+background-image:url(Images/bg_img_05.gif);
+background-repeat:no-repeat;
+background-position:100% 100%;
+     height:456px;
+	 width:580px;
+}
+#bgimg6 {background-color:#F2E9D8;
+background-image:url(Images/Bob_images04.gif);
+background-repeat:no-repeat;
+background-position:100% 100%;
+     height:456px;
+	 width:580px;
+}
+#bgimg7 {background-color:#F2E9D8;
+background-image:url(Images/Bob_images07.gif);
+background-repeat:no-repeat;
+background-position:100% 100%;
+     height:454px;
+	 width:580px;
+}
+#bgimg8 {background-color:#F2E9D8;
+background-image:url(Images/Bob_images06.gif);
+background-repeat:no-repeat;
+background-position:100% 100%;
+     height:456px;
+	 width:580px;
+}
+#bgcolor {
+     background-color:#F2E9D8;
+     height:453px;
+	 width:580px;
+}
+
+#bgcolor2 {
+     height:436px;
+	 width:580px;
+}
+#text{
+padding:10px 0px 0px 20px;
+}
+.style5 {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	color: #993300;
+	text-transform: none;
+}
+.style6 {
+	font-family: Tahoma;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #333333;
+}
+.style7 {
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+a:link {
+}
+.style8 {
+	font-family: Arial;
+	font-size: 16px;
+	font-style: normal;
+	color: #000000;
+	font-weight: bold;
+	font-variant: normal;
+}
+
+.style9 {font-family:Arial; 
+font-size:16px;
+font-weight:bold;
+padding:10px 0px 10px 0px;
+ color:#FFFFFF
+ }
+ 
+.style9 a{
+text-decoration:none;
+color:#FFFFFF}
+.style9 a:hover{
+text-decoration:underline;
+color:#FFFFFF}
+#img-2 {
+
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: left center;
+	height:42px;
+	width:564px;
+	background-image: url(Images/tiao-2.jpg);
+	clear: right;
+}
+p3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: normal;
+}
+#touying {
+	background-image:url(Images/touying-1.jpg);
+	background-repeat:no-repeat;
+	background-position:67% 102%;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#touying-2 {
+	background-image:url(Images/touying-2.jpg);
+	background-repeat:no-repeat;
+	background-position:67% 110%;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#touying-3 {
+	background-image:url(Images/touying-3.jpg);
+	background-position:124px 140px;
+	height:100%;
+	width:100%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+#touying-4 {
+
+
+	background-image:url(Images/touying-4.jpg);
+	background-repeat:no-repeat;
+	background-position:153px 187px;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#back {
+
+	background-image:url(Images/Back-2.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:100%;
+	width:100%;
+}
+#touying-5 {
+
+
+
+	background-image:url(Images/touying-5.jpg);
+	background-repeat:no-repeat;
+	background-position:18px 160px;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#touying-6 {
+
+
+
+
+	background-image:url(Images/touying-6.jpg);
+	background-repeat:no-repeat;
+	background-position:50px 135px;
+	height:100%;
+	width:100%;
+}
+#touying-7 {
+
+
+
+
+
+	background-image:url(Images/touying-7.jpg);
+	background-repeat:no-repeat;
+	background-position:5px 11%;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#beijing {
+	background-image:url(Images/xiang%20kuang.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:115px;
+	width:100px;
+}
+#beijing-2 {
+	background-image:url(Images/an%20niu.png);
+	background-repeat:no-repeat;
+	background-position:right center;
+	height:20px;
+	width:62px;
+	clip:   rect(auto auto auto auto);
+	float: none;
+}
+#touying-silver {
+
+
+	background-image:url(Images/touying-silver.jpg);
+	background-repeat:no-repeat;
+	background-position:229px 60px;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#work-1 {
+
+	background-image:url(Images/Viewshoes/WORKPULLON2.gif);
+	background-repeat:no-repeat;
+	background-position:center 51px;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#work-2 {
+
+
+	background-image:url(Images/Viewshoes/WORKLACEUP2.gif);
+	background-repeat:no-repeat;
+	background-position:center 75px;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#work-3 {
+
+
+
+	background-image:url(Images/Viewshoes/COWBOYWORKPULLON2.gif);
+	background-repeat:no-repeat;
+	background-position:center 60px;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#work-4 {
+
+
+
+
+	background-image:url(Images/Viewshoes/EZRIDER.gif);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#work-5 {
+	background-image:url(Images/Viewshoes/MDMCT.gif);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#work-6 {
+	background-image:url(Images/Viewshoes/COWBOYWORKPULLON1.gif);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+
+
+
+
+	background-image:url(Images/Viewshoes/EZRIDERWORKLACER2.gif);
+	background-repeat:no-repeat;
+	background-position:center 76px;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#Mens {
+
+
+
+
+
+
+	background-image:url(Images/Men%27s%20bei%20jing.gif);
+	background-repeat:no-repeat;
+	background-position:14px center;
+	height:100%;
+	width:100%;
+}
+#touying-aboutus {
+
+
+	background-image:url(Images/touying-aboutus.jpg);
+	background-repeat:no-repeat;
+	background-position:198px 14px;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#touying-Wmens {
+
+
+
+	background-image:url(Images/touying-womens.jpg);
+	background-repeat:no-repeat;
+	background-position:20px 60px;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#touying-kids {
+
+
+
+
+	background-image:url(Images/touying-kids.jpg);
+	background-repeat:no-repeat;
+	background-position:27px 138px;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#touying-mens {
+
+
+
+
+	background-image:url(Images/touying-womens.jpg);
+	background-repeat:no-repeat;
+	background-position:20px 60px;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#touying-contact us {
+
+
+
+
+
+	background-image:url(Images/di%20zhi.gif);
+	background-repeat:no-repeat;
+	background-position:2px center;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#touying-an liu {
+
+
+
+
+
+
+
+	background-image:url(Images/Button/an%20liu-2.gif);
+	background-repeat:repeat;
+	background-position:center center;
+	height:auto;
+	width:auto;
+	background-attachment: scroll;
+}
+#touying-retailers {
+
+
+
+
+
+
+	background-image:url(Images/touying-retailers.jpg);
+	background-repeat:no-repeat;
+	background-position:50px bottom;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#beijing-1 {
+
+	background-image:url(Images/xiang%20kuang-1.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:115px;
+	width:100px;
+}
+#beijing-k {
+
+
+	background-image:url(Images/xiang%20kuang-k.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+	height:115px;
+	width:100px;
+}
+.textlogo {
+	font-family:Arial, sans-serif;
+	font-size:13px;
+	color:#333333;
+	font-weight: bold;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	letter-spacing: -1px;
+}
+#work-4_2 {
+
+
+
+
+
+	background-image:url(Images/Viewshoes/E%20Z%20Rider-2.gif);
+	background-repeat:no-repeat;
+	background-position:center 70px;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+}
+#touying-index {
+	background-image:url(Images/index.jpg);
+	background-repeat:no-repeat;
+	background-position:right center;
+	height:100%;
+	width:100%;
+	background-attachment: scroll;
+	font-family: "新細明體";
+}
+#bgimg10 {
+
+	background-image:url(Images/X3-4.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	height:100%;
+	width:100%;
+}

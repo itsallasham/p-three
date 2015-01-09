@@ -1,0 +1,16 @@
+mixin outputRating(rating)
+	- for (var i = 1; i <= rating; i++)
+		span.fa.fa-star
+	- for (i = rating; i < 5; i++)
+		span.fa.fa-star-o
+
+
+
+mixin formatDate(dateString)
+	-var date = new Date(dateString);
+	-var monthNames = ["Jan", "Feb", "Mar","Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+	-var d = date.getDate();
+	-var m = monthNames[date.getMonth()]
+	-var y = date.getFullYear();
+	-var output = d + ' ' + m + ' ' + y;
+	=output

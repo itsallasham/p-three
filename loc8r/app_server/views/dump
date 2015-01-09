@@ -1,0 +1,103 @@
+										.item(style='background-image: url(/bootstrap/images/slider/bg2.jpg)')
+											.container
+												.row.slide-margin
+													.col-sm-6
+														.carousel-content
+															h1.animation.animated-item-1 Lorem 
+															h2.animation.animated-item-2 Accusantium 
+															a.btn-slide.animation.animated-item-3(href='#') Read More
+									
+										// /.item
+										.item(style='background-image: url(/bootstrap/images/slider/bg3.jpg)')
+											.container
+												.row.slide-margin
+													.col-sm-6
+														.carousel-content
+															h1.animation.animated-item-1 Lorem 
+															h2.animation.animated-item-2 Accusantium 
+															a.btn-slide.animation.animated-item-3(href='#') Read More		
+										// /.item
+
+
+.row
+			.col-xs-12.col-sm-9.col-md-8.col-lg-8
+				.row.list-group
+					.col-xs-10.col-sm-8.list-group-item.no-margin
+						section#main-slider
+							ol.carousel-indicators
+								li.active(data-target='#main-slider', data-slide-to='0')
+										
+								li(data-target='#main-slider', data-slide-to='1')
+
+								li(data-target='#main-slider', data-slide-to='2')
+							.carousel-inner
+								each location in locations
+									.item.active(style='background-image: url(/bootstrap/images/slider/bg1.jpg)')
+												.row.slide-margin
+													.col-sm-6
+														.carousel-content
+															a.h1.animation.animated-item-1(href="/location")= location.name
+															small &nbsp; 
+																+outputRating(location.rating)
+															h2.animation.animated-item-2 Accusantium 
+								each location in locations
+									.item(style='background-image: url(/bootstrap/images/slider/bg3.jpg)')
+											.container
+												.row.slide-margin
+													.col-sm-6
+														.carousel-content
+															h1.animation.animated-item-1 Lorem 
+															h2.animation.animated-item-2 Accusantium 
+															a.btn-slide.animation.animated-item-3(href='#') Read More		
+									
+														a.btn-slide.animation.animated-item-3(href='#') Read More		
+							a.prev.hidden-xs.pull-left(href='#main-slider', data-slide='prev')
+								i.fa.fa-chevron-left
+							a.next.hidden-xs.pull-right(href='#main-slider', data-slide='next')
+								i.fa.fa-chevron-right
+					
+						// /#main-slider
+
+				
+																				
+			.col-xs-12.col-sm-2
+				p.lead= sidebar
+
+
+	// /.container
+
+
+
+
+	a(href="/location")= location.name
+
+
+	h4
+								small &nbsp;
+									+outputRating(location.rating)
+								span.badge.pull-right.badge-default= location.distance
+							p.address= location.address
+							p
+								each facility in location.facilities
+									span.label.label-warning= facility	
+									&nbsp;
+
+
+span.badge.pull-right.badge-default= location.distance
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+width: 35px;
+  height: 35px;
+  border-radius: 15px;
+
+  width: 200px;
+  height: 200px;
+  line-height: 6.9;
